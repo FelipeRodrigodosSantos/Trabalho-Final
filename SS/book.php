@@ -115,8 +115,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
             <?php endforeach; ?>
         </div>
     </section>
-    <footer>
-        <p>Todos os direitos reservados</p>
-    </footer>
 </body>
 </html>

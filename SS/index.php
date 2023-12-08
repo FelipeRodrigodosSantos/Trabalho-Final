@@ -81,20 +81,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
         <button id="log" onclick="logout()"><ion-icon name="log-out-outline"></ion-icon></button></div>
     </section>
     </header>
-    <section>
+    <section><br><br>
         <div class="bioP">
-            <img src="Public/Assets/Pietro.jpeg" alt="Pietro">
+            <img src="../imagens/livros extras.png" alt="Pietro">
             <div class="lineBio"></div>
-            <div class="desc"><p>Pietro, nascido em uma pequena cidade costeira, é um escritor mestre que transforma pensamentos em prosa e sentimentos em poesia. 
-            Sua jornada literária começou nos diários, evoluindo para uma fusão de estudo acadêmico e paixão desenfreada por palavras. 
-            Graduado em Letras, tornou-se um colaborador destacado neste site, conquistando corações com suas palavras que capturam a essência da experiência humana.
-            Além de sua escrita envolvente, Pietro é conhecido por sua abordagem colaborativa e pelo estímulo aos escritores emergentes. 
-            Neste aniversário, celebramos sua contribuição única e aguardamos ansiosamente o que o futuro reserva sob sua pena magistral.</p></div>
+            <div class="desc"><p>É com grande prazer que te recebemos em nosso site!!!<br><br><br>
+        VOCÊ SABIA QUE ESTA BIBLIOTECA É INTEIRAMENTE VIRTUAL?<br>
+    Esta biblioteca tem como proposta levar até a sua casa o prazer de ler, portanto não temos uma sede física.</p></div>
         </div>
         <div class="bioO">
             <img src="Public/Assets/Oscar.jpeg" alt="Oscar">
             <div class="lineBio"></div>
-            <div class="desc"><p>Oscar Osvaldo é um talentoso autor e programador cujo dom para contar histórias se funde elegantemente com sua habilidade em código. 
+            <div class="desc"><p>NOSSO MAIOR COLABORADOR:<BR>Oscar Osvaldo é um talentoso autor e programador cujo dom para contar histórias se funde elegantemente com sua habilidade em código. 
             Desde jovem, Oscar cativou leitores com narrativas envolventes, e ao abraçar a era digital, ele se tornou um mestre na programação, criando soluções inovadoras.
             Contribuindo significativamente para este site, Oscar é reconhecido por seus artigos informativos e por compartilhar seu conhecimento tanto em escrita quanto em programação.
             Sua paixão por inspirar outros é evidente, tornando-o uma figura respeitada na comunidade online. 
@@ -102,11 +100,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
         </div>
         <div class="pub">
             <div class="cub"></div>
-            <div class="pubtext"><p>Clique <a href="book.php">Aqui</a> para acessar nosso acervo digital!</p></div>
+            <div class="pubtext"><p>Clique <a href="book.php" style="color:#FF0099">Aqui</a> para acessar nosso acervo digital!</p></div>
         </div>
     </section>
-    <footer>
-        <p>Todos os direitos reservados</p>
-    </footer>
 </body>
 </html>
