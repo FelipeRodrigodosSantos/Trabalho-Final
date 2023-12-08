@@ -1,0 +1,220 @@
+/* STRUCTURE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    outline: 0;
+  }
+/* MENU */.cat {
+  display: flex;
+  align-items: center;
+  background-color: #505050;
+  height: 130px;
+  justify-content: space-between
+}
+.cat h1 {
+  font-family: Euphoria Script;
+  text-align: start;
+  font-size: 130px;
+  font-weight: 400;
+  line-height: 130px;
+  letter-spacing: 0.14em;
+  text-align: center;
+  color: white;
+}
+.cat img {
+  width: 130px;
+}
+
+.text {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* BIO PIETRO*/
+.bioP {
+  width: 97vw;
+  height: 526px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 150px 0;
+}
+.bioP img{
+  width: 600px;
+  border-radius: 7px;
+  box-shadow: 5px 8px 8px rgb(0 0 0 / 34%);
+}
+.bioP .lineBio{
+  border-radius: 7px;
+  width: 2.5px;
+  background: #61F4F4;
+}
+.bioP .desc{
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.desc p {
+font-family: Aubrey;
+font-size: 25px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0.14em;
+text-align: center;
+}
+/* BIO OSCAR */
+.bioO {
+  width: 97vw;
+  height: 526px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin: 0 0 150px 0;
+}
+.bioO img{
+  width: 600px;
+  border-radius: 7px;
+  box-shadow: -9px 6px 8px rgb(0 0 0 / 34%);
+}
+.bioO .lineBio{
+  border-radius: 7px;
+  width: 2.5px;
+  background: #B380CC;
+}
+.bioO .desc{
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.desc p {
+font-family: Aubrey;
+font-size: 25px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0.14em;
+text-align: center;
+}
+
+/* ACERVO */
+.pub {
+  width: 97vw;
+  height: 150px;
+  display: flex;
+  margin: 0 0 150px 0;
+  justify-content: space-between;
+}
+.pub .pubtext{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pub p{
+  width: 469px;
+  height: 125px;
+  top: 673px;
+  left: 862px;
+  font-family: Aubrey;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0.14em;
+  text-align: center;
+  
+}
+.pub .cub {
+  width: 50%;
+  background: #FF0099;
+}
+
+/* FOOTER */
+footer {
+  border-radius: 20.9px 20.9px 0px 0px;
+  display: flex;
+  width: 97vw;
+  height: 67px;
+  background: rgba(0, 0, 0, 1);
+  align-items: center;
+  padding: 15px;
+}
+footer p {
+  font-family: Aubrey;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.14em;
+  text-align: center;
+  color: white;  
+}
+
+/* USER ICON */
+.user-info {
+  right: 0;
+  display: none;
+  position: absolute;
+  background-color: #61F4F4;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  padding: 0.625rem;
+  margin: 46px 50px 0 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  height: 140px;
+  width: 100px;
+  resize: both;
+  overflow: auto;
+}
+.user-info button#log{
+  background: #cacaca00;
+  outline: none;
+  border: none;
+  width: 25px;
+  height: 25px;
+}
+.user-info button ion-icon{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.user-icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 80%;
+    color: #FF0099;
+}
+.user-icon ion-icon {
+    width: 50px;
+    height: 65px;
+}
+
+a {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #FF0099;
+}
+h5 {
+  background-color: #61F4F4;
+  width: 200px;
+  height: 75px;
+  border-radius: 25px;
+  font-size: 50px;
+}
+h6 {
+  background-color: #B380CC;
+  width: 200px;
+  height: 75px;
+  border-radius: 25px;
+  font-size: 50px;
+}

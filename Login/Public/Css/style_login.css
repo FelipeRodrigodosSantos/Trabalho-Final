@@ -1,0 +1,109 @@
+/* STRUCTURE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+  outline: 0;
+}
+
+.cat {
+  display: flex;
+  align-items: center;
+  background-color: #505050;
+  height: 130px;
+  justify-content: space-between
+}
+.cat h1 {
+  font-family: Euphoria Script;
+  text-align: start;
+  font-size: 130px;
+  font-weight: 400;
+  line-height: 130px;
+  letter-spacing: 0.14em;
+  text-align: center;
+  color: white;
+}
+.cat img {
+  width: 130px;
+}
+
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 130px;
+  position: baseline;
+}
+  
+  /* lOGIN */
+.login_box {
+    width: 700px;
+    height: 480px;
+    border-radius: 27px;
+    background: #8CBFE6;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.login_box h2 {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0.14em;
+    text-align: center;
+}
+.login_box input {
+    width: 364px;
+    height: 61px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    margin: 15px;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    background-color: #B380CC;
+}
+.login_box .button {
+    display: flex;
+    justify-content: space-around;
+    margin: 85px 0 0 0;
+}
+.login_box button {
+  width: 169px;
+  height: 60px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background: #FF0099;
+  margin: 10px 0 0 0;
+  font-size: 20px;
+  transition: background 1s ease-in-out;
+}
+
+.login_box button:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, #ff5bbd, #FF0099);
+}
+.alert {
+  display: none;
+  position: fixed;
+  top: 51.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+body {
+  background-image: url('../imagens/background_bibliotecat.png');
+  background-size: 40%;
+  background-color: aqua;
+}

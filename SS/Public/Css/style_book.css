@@ -1,0 +1,190 @@
+/* STRUCTURE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    outline: 0;
+  }
+  body {
+    background-image: url('../imagens/background_bibliotecat.png');
+    background-size: 40%;
+  }
+/* MENU */
+.cat {
+  display: flex;
+  align-items: center;
+  background-color: #505050;
+  height: 130px;
+  justify-content: space-between
+}
+.cat h1 {
+  font-family: Euphoria Script;
+  text-align: start;
+  font-size: 130px;
+  font-weight: 400;
+  line-height: 130px;
+  letter-spacing: 0.14em;
+  text-align: center;
+  color: white;
+}
+.cat img {
+  width: 130px;
+}
+a {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #D940B3;
+}
+h5 {
+  background-color: #61F4F4;
+  width: 200px;
+  height: 75px;
+  font-size: 50px;
+  border-radius: 25px;
+}
+h6 {
+  background-color: #B380CC;
+  width: 200px;
+  height: 75px;
+  font-size: 50px;
+  border-radius: 25px;
+}
+.text {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+/* BANNER */
+.acervo {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background: #ECFFFF;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 80px 0;
+}
+.acervo h1{
+  font-family: Aubrey;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 67px;
+  letter-spacing: 0.14em;
+  text-align: center;
+  color: black;  
+}
+
+/* LIVROS */
+.livros {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 0 50px 0 0;
+}
+.livros ul {
+  list-style-type: none;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.livros li {
+  border-radius: 7px;
+  border: 1px solid black;
+  background: whitesmoke;
+}
+.livros .categoria {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categoria {
+  border: 1px solid  white;
+  background: #d940b3bd;
+  padding: 0 0 20px 0;
+  border-radius: 25px;
+}
+.livrobox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  justify-content: center;
+  margin: 10px;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  border-radius: 20.9px 20.9px 0px 0px;
+  display: flex;
+  width: 97vw;
+  height: 67px;
+  background: rgba(0, 0, 0, 1);
+  align-items: center;
+  padding: 15px;
+  margin: 50px 0 0 0;
+}
+footer p {
+  font-family: Aubrey;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.14em;
+  text-align: center;
+  color: white;  
+}
+
+/* USER ICON */
+.user-info {
+  right: 0;
+  display: none;
+  position: absolute;
+  background-color: #61F4F4;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  padding: 0.625rem;
+  margin: 145px 0 0 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  height: 140px;
+  width: 100px;
+  resize: both;
+  overflow: auto;
+}
+.user-info button#log{
+  background: #cacaca00;
+  outline: none;
+  border: none;
+  width: 25px;
+  height: 25px;
+}
+.user-info button ion-icon{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.user-icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    color: #FF0099;
+    border-radius: 80%;
+}
+.user-icon ion-icon {
+    width: 50px;
+    height: 65px;
+}
